@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'sjp:simple-rest-fix',
+  name: 'sjp8:simple-rest-fix',
   version: '1.1.2',
 
   // Brief, one-line summary of the package.
@@ -49,7 +49,7 @@ Package.onTest(function (api) {
     'mongo',
     'random',
     'simple:json-routes',
-    'sjp:simple-rest-fix',
+    'sjp8:simple-rest-fix',
     'simple:rest-accounts-password',
     'simple:rest-json-error-handler',
     'test-helpers',
