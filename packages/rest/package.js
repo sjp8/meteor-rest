@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'simple:rest',
-  version: '1.1.1',
+  name: 'sjp:simple-rest-fix',
+  version: '1.1.2',
 
   // Brief, one-line summary of the package.
-  summary: 'The easiest way to add a REST API to your Meteor app',
+  summary: 'The easiest way to add a REST API to your Meteor app, with support for Meteor.user().',
 
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/stubailo/meteor-rest/blob/master/packages/rest/',
+  git: 'https://github.com/sjp8/meteor-rest/blob/master/packages/rest/',
 
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
@@ -49,7 +49,7 @@ Package.onTest(function (api) {
     'mongo',
     'random',
     'simple:json-routes',
-    'simple:rest',
+    'sjp:simple-rest-fix',
     'simple:rest-accounts-password',
     'simple:rest-json-error-handler',
     'test-helpers',
